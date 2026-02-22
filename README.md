@@ -15,6 +15,7 @@ This repo holds the docs and scripts you need to set up Git + GitHub and clone y
 4. Use **REPOS-TO-SYNC-REVIEW.md** for the list of 14 repos to clone into `~/Repositories`.
 5. Scripts: **backup-before-migration.sh** (for future backups), **github-remotes-to-ssh.sh** (to switch cloned repos from HTTPS to SSH if needed).
 6. **BACKUP-RUN-SUMMARY.md** and **BACKUP-VERIFICATION-REPORT.md** — backup status and repo-by-repo verification from the old Mac (which repos have `backup-2025-02-22`, which are clean, which need attention).
+7. **Secrets / .env transfer:** **SECRETS-TRANSFER.md** — how to move `.env` files, credentials, and local data from the old Mac to the new (not in Git). On the old Mac run **export-secrets-for-migration.sh** to create `~/Repositories-secrets-export`; zip and transfer it; on the new Mac unzip and run **restore-secrets-after-migration.sh** after cloning repos.
 
 All paths in the scripts use `~/Repositories` so they work on any Mac.
 
