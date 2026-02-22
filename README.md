@@ -2,7 +2,7 @@
 
 This repo holds the docs and scripts you need to set up Git + GitHub and clone your 14 project repos when moving from an old Mac to a new Mac.
 
-**On the new Mac:**
+**On the new Mac:** → **Start here: [NEW-MAC-INSTRUCTIONS.md](NEW-MAC-INSTRUCTIONS.md)** — single step-by-step checklist (Git, SSH, clone 14 repos, restore secrets).
 
 1. Clone this repo first (you’ll need Git + SSH set up once — see step 2):
    ```bash
